@@ -1,21 +1,13 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     fontFamily: {
       mulish: 'Mulish, sans-serif',
-    },
-    fontSize: {
-      xs: 'var(--text-xs)',
-      sm: 'var(--text-sm)',
-      md: 'var(--text-md)',
-      lg: 'var(--text-lg)',
-      xl: 'var(--text-xl)',
     },
     screens: {
       mobile: 'var(--screen-mobile)',
@@ -44,6 +36,13 @@ const config: Config = {
       7: 'var(--spacing-xl) /* 40px */',
       8: 'var(--spacing-2xl) /* 48px */',
       9: 'var(--spacing-4xl) /* 56px */',
+    },
+    fontSize: {
+      xs: 'var(--font-xs)',
+      sm: 'var(--font-sm)',
+      md: 'var(--font-md)',
+      lg: 'var(--font-lg)',
+      xl: 'var(--font-xl)',
     },
     extend: {
       colors: {
@@ -90,5 +89,4 @@ const config: Config = {
     },
   },
   plugins: [],
-};
-export default config;
+}
