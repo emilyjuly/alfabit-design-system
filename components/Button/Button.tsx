@@ -6,13 +6,13 @@ export type ButtonProps = {
 function getVariant(variant: ButtonProps['variant'], disabled: ButtonProps['disabled']) {
     switch (variant) {
         case 'primary':
-            return disabled ? 'bg-disabled text-disabled' : 'bg-primary text-white'
+            return disabled ? 'bg-disabled text-disabled cursor-not-allowed' : 'bg-primary text-white'
         case 'secondary':
-            return disabled ? 'bg-disabled text-disabled' : 'bg-quaternary text-primary'
+            return disabled ? 'bg-disabled text-disabled cursor-not-allowed' : 'bg-quaternary text-primary'
         case 'tertiary':
-            return disabled ? 'bg-transparent text-disabled' : 'bg-transparent text-primary'
+            return disabled ? 'bg-transparent text-disabled cursor-not-allowed' : 'bg-transparent text-primary'
         default:
-            return disabled ? 'text-disabled' : 'text-primary'
+            return disabled ? 'text-disabled cursor-not-allowed' : 'text-primary'
     }
 }
 
