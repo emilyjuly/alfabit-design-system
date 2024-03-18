@@ -14,7 +14,7 @@ const boxClassMap = {
     secondary: "bg-quaternary rounded-xl p-2",
     tertiary: "bg-dark rounded-xl p-2",
     dark: "bg-dark p-2",
-    alert: "bg-yellow-200 p-2",
+    alert: "bg-blue-200 p-2",
     success: "bg-green-100 p-2",
     error: "bg-error p-2",
 };
