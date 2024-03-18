@@ -1,17 +1,26 @@
-import { Meta, StoryObj } from "@storybook/react";
+import {Meta, StoryObj} from "@storybook/react";
 
 import Box, {type BoxProps} from './Box'
 
 const meta: Meta<BoxProps> = {
-    title: "Atoms/Box",
+    title: "Design System/Atoms/Box",
     component: Box,
     argTypes: {
-        children: { type: "string" },
-        type: { type: "string" },
-        rounded: { type: "boolean" },
-        border: { type: "boolean" },
-        filledBackground: { type: "boolean" },
-        className: { type: "string" },
+        children: {type: "string"},
+        type: {
+            type: "string", options: [
+                'alert',
+                'primary',
+                'secondary',
+                'dark',
+                'success',
+                'error'],
+            control: { type: 'select' },
+        },
+        rounded: {type: "boolean"},
+        border: {type: "boolean"},
+        filledBackground: {type: "boolean"},
+        className: {type: "string"},
     },
 };
 
