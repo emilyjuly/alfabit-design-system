@@ -1,7 +1,7 @@
 {
-  "name": "alfabit-design-system",
-  "version": "0.1.0",
-  "private": true,
+  "name": "alfabit-july-ds",
+  "version": "0.1.1",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -41,5 +41,15 @@
     "@storybook/theming": "^8.0.1",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.0.12"
-  }
+  },
+  "description": "Um design system, documentado no Storybook",
+  "main": "components/index.ts",
+  "author": "Emily Domingos",
+  "license": "ISC",
+  "files": [
+    "styles/globals.css",
+    "tailwind.config.js",
+    "components/*",
+    "fonts/*"
+  ]
 }
