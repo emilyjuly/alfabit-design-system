@@ -1,20 +1,20 @@
 
 > alfabit-design-system@0.1.0 build-storybook
-> storybook build --output-dir /tmp/chromatic--92274-plZbeMJRxnVr
+> storybook build --output-dir /tmp/chromatic--92668-C6MhNkDaw09G
 
 @storybook/cli v7.0.12
 
-info => Cleaning outputDir: /tmp/chromatic--92274-plZbeMJRxnVr
+info => Cleaning outputDir: /tmp/chromatic--92668-C6MhNkDaw09G
 info => Loading presets
 info => Building manager..
-info => Manager built (240 ms)
+info => Manager built (236 ms)
 info => Compiling preview..
-info => Copying static files: /home/emily/code/alfabit-design-system/node_modules/@storybook/manager/static at /tmp/chromatic--92274-plZbeMJRxnVr/sb-common-assets
+info => Copying static files: /home/emily/code/alfabit-design-system/node_modules/@storybook/manager/static at /tmp/chromatic--92668-C6MhNkDaw09G/sb-common-assets
 WARN You (or an addon) are using the 'config' preset field. This has been replaced by 'previewAnnotations' and will be removed in 8.0
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using default Webpack5 setup
-info => Copying static files: /home/emily/code/alfabit-design-system/public at /tmp/chromatic--92274-plZbeMJRxnVr/
+info => Copying static files: /home/emily/code/alfabit-design-system/public at /tmp/chromatic--92668-C6MhNkDaw09G/
 info => Preview built (17 s)
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
@@ -25,8 +25,8 @@ WARN   128.1753ccbc.iframe.bundle.js (995 KiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
 WARN   main (1.02 MiB)
-WARN       runtime~main.7f1cca86.iframe.bundle.js
+WARN       runtime~main.fde78287.iframe.bundle.js
 WARN       128.1753ccbc.iframe.bundle.js
-WARN       main.0f989228.iframe.bundle.js
+WARN       main.f6e7e428.iframe.bundle.js
 WARN 
-info => Output directory: /tmp/chromatic--92274-plZbeMJRxnVr
+info => Output directory: /tmp/chromatic--92668-C6MhNkDaw09G
